@@ -6,4 +6,27 @@
   .home {
     @apply max-w-[1512px] bg-white;
   }
+  .fixed-side {
+    @apply w-24 hidden py-6 lg:fixed h-screen px-6;
+  }
+
+  .navbar {
+    @apply py-5 md:py-6 lg:py-8 px-5 md:px-6 lg:px-8;
+  }
+  .navbar .nav {
+    @apply items-center text-[25px] leading-[36.46px] py-6 lg:py-0 bottom-0 top-0 flex flex-col justify-start lg:justify-end lg:flex-row gap-8 fixed right-0 lg:relative lg:w-2/3 bg-brand-blue lg:bg-transparent lg:text-[21px] lg:leading-[31.25px];
+  }
+
+  .nav li {
+    @apply w-full lg:w-auto text-white lg:text-black;
+  }
+
+  .nav li a,
+  .nav li button {
+    @apply px-5 lg:px-0;
+  }
+
+  .nav-btn {
+    @apply py-2 lg:px-5 min-w-[160px] text-white text-[25px] lg:text-[21px] flex items-center lg:justify-center lg:rounded-md lg:bg-brand-blue;
+  }
 }
