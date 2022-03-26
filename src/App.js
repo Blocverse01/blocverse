@@ -13,7 +13,7 @@ AOS.init({
 
 function App() {
   return (
-    <div>
+    <div className="font-sans">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

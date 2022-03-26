@@ -1,32 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
   .home {
-    @apply max-w-[1512px] bg-white;
+    @apply max-w-[1512px] bg-white mx-auto;
   }
   .fixed-side {
-    @apply w-24 hidden py-6 lg:fixed h-screen px-6;
+    @apply w-20 hidden lg:flex items-start left-0 top-0 border-black border py-6 lg:absolute px-6;
   }
-
   .navbar {
-    @apply py-5 md:py-6 lg:py-8 px-5 md:px-6 lg:px-8;
+    @apply py-5 md:py-6 lg:py-8 px-5 bg-white md:px-6 lg:px-8 sticky top-0 z-50;
   }
   .navbar .nav {
-    @apply items-center text-[25px] leading-[36.46px] py-6 lg:py-0 bottom-0 top-0 flex flex-col justify-start lg:justify-end lg:flex-row gap-8 fixed right-0 lg:relative lg:w-2/3 bg-brand-blue lg:bg-transparent lg:text-[21px] lg:leading-[31.25px];
+    @apply items-center text-[20px] leading-[36.46px] py-6 font-[400] lg:py-0 bottom-0 lg:flex-1 top-0 flex flex-col justify-start lg:justify-between lg:flex-row gap-y-[22px] gap-x-[45px] fixed right-0 lg:relative lg:w-full bg-brand-blue lg:bg-transparent lg:text-[14px] xl:text-[18px] lg:leading-[31.25px] transition-all duration-300 ease-in-out overflow-hidden;
   }
-
   .nav li {
     @apply w-full lg:w-auto text-white lg:text-black;
   }
-
   .nav li a,
   .nav li button {
     @apply px-5 lg:px-0;
   }
-
+  .btn {
+    @apply px-3 py-2 lg:px-5 min-w-[160px] text-white transition-all ease-in-out hover:bg-slate-200 duration-1000 hover:text-brand-blue font-semibold flex items-center justify-center rounded-[15.47px] h-[55px] bg-brand-blue;
+  }
+  .alt-btn {
+    @apply px-3 py-2 lg:px-5 min-w-[160px] transition-all ease-in-out font-semibold hover:bg-brand-blue hover:text-white duration-1000 border-brand-blue border text-brand-blue flex justify-center items-center h-[55px];
+  }
   .nav-btn {
-    @apply py-2 lg:px-5 min-w-[160px] text-white text-[25px] lg:text-[21px] flex items-center lg:justify-center lg:rounded-md lg:bg-brand-blue;
+    @apply bg-transparent rounded-none lg:rounded-md justify-start lg:justify-center lg:bg-brand-blue text-[20px] lg:text-[16px] xl:text-[18px];
+  }
+  .hero-text {
+    @apply text-[32px] lg:text-[48px] max-w-[1080px] xl:text-[52px] font-bold leading-[42px] lg:leading-[72.91px] py-8 lg:py-10;
+  }
+  .hero-sub-text {
+    @apply lg:text-[36px] text-[22px] lg:leading-[50px] max-w-[540px];
+  }
+  .project-title {
+    @apply text-[32px] lg:text-[48px] xl:text-[52px] font-bold leading-[42px] lg:leading-[72.91px];
+  }
+  .project-desc {
+    @apply lg:text-[36px] text-[22px] lg:leading-[50px] mt-1;
+  }
+  .project-link {
+    @apply underline text-blue-500 mt-2;
   }
 }
