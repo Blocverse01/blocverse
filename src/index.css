@@ -13,13 +13,13 @@
     @apply w-20 hidden lg:flex items-start left-0 top-0 border-black border py-6 lg:absolute px-6;
   }
   .navbar {
-    @apply py-5 md:py-6 lg:py-8 px-5 bg-white md:px-6 lg:px-8 sticky top-0 z-50;
+    @apply py-5 md:py-6 lg:py-8 px-5 bg-white md:px-6 lg:px-8 sticky lg:relative top-0 z-50;
   }
   .navbar .nav {
     @apply items-center text-[20px] leading-[36.46px] py-6 font-[400] lg:py-0 bottom-0 lg:flex-1 top-0 flex flex-col justify-start lg:justify-between lg:flex-row gap-y-[22px] gap-x-[45px] fixed right-0 lg:relative lg:w-full bg-brand-blue lg:bg-transparent lg:text-[14px] xl:text-[18px] lg:leading-[31.25px] transition-all duration-300 ease-in-out overflow-hidden;
   }
   .nav li {
-    @apply w-full lg:w-auto text-white lg:text-black;
+    @apply w-full lg:w-auto text-white font-bold lg:font-medium lg:text-slate-800;
   }
   .nav li a,
   .nav li button {
@@ -32,7 +32,7 @@
     @apply px-3 py-2 lg:px-5 min-w-[160px] transition-all ease-in-out font-semibold hover:bg-brand-blue hover:text-white duration-1000 border-brand-blue border text-brand-blue flex justify-center items-center h-[55px];
   }
   .nav-btn {
-    @apply bg-transparent rounded-none lg:rounded-md justify-start lg:justify-center lg:bg-brand-blue text-[20px] lg:text-[16px] xl:text-[18px];
+    @apply bg-transparent rounded-none h-auto lg:h-[55px] lg:rounded-md justify-start lg:justify-center lg:bg-brand-blue text-[20px] lg:text-[16px] xl:text-[18px];
   }
   .hero-text {
     @apply text-[32px] lg:text-[48px] max-w-[1080px] xl:text-[52px] font-bold leading-[42px] lg:leading-[72.91px] py-8 lg:py-10;
