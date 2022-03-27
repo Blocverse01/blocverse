@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import { Link, Outlet, useMatch, useResolvedPath } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
 import twitter from "./svgs/twitter.png";
 import discord from "./svgs/discord.svg";
@@ -8,8 +8,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 export default function Layout() {
-  let resolved = useResolvedPath("/about");
-  let match = useMatch({ path: resolved.pathname, end: true });
   let [open, setOpen] = useState(false);
   return (
     <div className="home">
@@ -68,7 +66,7 @@ export default function Layout() {
                 </button>
               </li>
               <li>
-                <Link className={`${match ? 'text-brand-blue' : ''}`} to="/about">About</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
                 <Link to="/what-we-do">What We Do</Link>

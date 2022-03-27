@@ -4,11 +4,11 @@ export default function CustomLink({ children, to, ...props }) {
     let resolved = useResolvedPath(to);
     let match = useMatch({ path: resolved.pathname, end: true });
     return (
-        <Link
+        <Link 
             style={{
                 color: match
-                    ? ""
-                    : "none",
+                    ? "#14B5F0"
+                    : "",
             }}
             to={to}
             {...props}
