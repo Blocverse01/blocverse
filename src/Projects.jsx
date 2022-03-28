@@ -48,7 +48,7 @@ export default function Projects() {
   return (
     <div>
       {projects.map((project, index) => (
-        <section
+        <section key={index}
           id="project"
           className={`grid grid-cols-1 gap-y-[28px] gap-x-[64px] overflow-hidden md:grid-cols-2 ${inView === index ? "max-w-full max-h-full" : "max-w-0 max-h-0"
             }`}

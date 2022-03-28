@@ -36,7 +36,7 @@ const teamMembers = [
     twitterHandle: "@BlahBlah",
   },
   {
-    name: "Team Member",
+    name: "Team Member 4",
     role: "Member Role",
     picture: team4,
     description:
@@ -45,7 +45,7 @@ const teamMembers = [
     twitterHandle: "@BlahBlah",
   },
   {
-    name: "Team Member",
+    name: "Team Member 5",
     role: "Member Role",
     picture: team5,
     description:
@@ -54,7 +54,7 @@ const teamMembers = [
     twitterHandle: "@BlahBlah",
   },
   {
-    name: "Team Member",
+    name: "Team Member 6",
     role: "Member Role",
     picture: team6,
     description:
@@ -63,7 +63,7 @@ const teamMembers = [
     twitterHandle: "@BlahBlah",
   },
   {
-    name: "Team Member",
+    name: "Team Member 7",
     role: "Member Role",
     picture: team7,
     description:
@@ -72,7 +72,7 @@ const teamMembers = [
     twitterHandle: "@BlahBlah",
   },
   {
-    name: "Team Member",
+    name: "Team Member 8",
     role: "Member Role",
     picture: team8,
     description:

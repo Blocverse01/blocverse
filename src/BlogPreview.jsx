@@ -31,8 +31,8 @@ export default function BlogPreview() {
     <section>
       <h3 className="project-title mb-[35px]">Blog Articles</h3>
       <div className="grid grid-cols-1 gap-[43px] lg:gap-[32px]">
-        {articles.map((article) => (
-          <div className="grid grid-cols-1 gap-[20px] lg:gap-[43px] place-items-center md:grid-cols-2">
+        {articles.map((article, index) => (
+          <div key={index} className="grid grid-cols-1 gap-[20px] lg:gap-[43px] place-items-center md:grid-cols-2">
             <div data-aos="fade-right">
               <img src={article.imageLink} alt={article.title} />
             </div>
@@ -41,9 +41,9 @@ export default function BlogPreview() {
                 {article.title.toLowerCase()}
               </h3>
               <p className="text-[16px] lg:text-[24px] lg:leading-[33.25px] leading-[20.83px]">
-                <div className="line-clamp-3 text-slate-800">
+                <span className="line-clamp-3 text-slate-800">
                   {article.highlight}
-                </div>
+                </span>
                 <a
                   className="text-brand-blue underline"
                   href={article.articleLink}

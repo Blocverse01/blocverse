@@ -55,8 +55,8 @@ export default function Home() {
             OUR SERVICES
           </h3>
           <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4 lg:grid-cols-4">
-            {services.map((service) => (
-              <div className="flex items-center">
+            {services.map((service, index) => (
+              <div key={index} className="flex items-center">
                 <img src={dot} className="mr-[12px] h-[15px]" alt="dot" />
                 <span className="">{service}</span>
               </div>

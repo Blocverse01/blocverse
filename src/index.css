@@ -46,6 +46,9 @@
   .project-desc {
     @apply lg:text-[36px] text-[22px] lg:leading-[50px] mt-1;
   }
+  .headline {
+     @apply text-[28px] lg:text-[52px] xl:text-[52px] font-bold leading-[36.46.px] lg:leading-[72.91px];
+  }
   .project-link {
     @apply underline text-blue-500 mt-2;
   }

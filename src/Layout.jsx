@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
-import { Link, Outlet } from "react-router-dom";
-import { useState } from "react";
+import { Link, Outlet, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 import twitter from "./svgs/twitter.png";
 import discord from "./svgs/discord.svg";
 import instagram from "./svgs/instagram.svg";
@@ -9,6 +9,10 @@ import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 export default function Layout() {
   let [open, setOpen] = useState(false);
+  const location = useLocation();
+  useEffect(() => {
+    setOpen(false);
+  }, [location]);
   return (
     <div className="home">
       {/*  <aside className="fixed-side pt-[335px]">
