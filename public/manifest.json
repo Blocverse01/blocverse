@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Blocverse",
+  "name": "Blocverse",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +8,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
-      "type": "image/png",
+      "src": "blocverse-logo.jpg",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "logo.png",
-       "type": "image/png",
+      "src": "blocverse-logo.jpg",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#14B5F0",
+  "background_color": "#14B5F0"
 }
