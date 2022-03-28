@@ -1,6 +1,6 @@
 import hero from "./svgs/hero.svg";
 import dot from "./svgs/dot.svg";
-import Projects from "./Projects";
+import Projects from "./ProjectsCarousel";
 import BlogPreview from "./BlogPreview";
 import { Link } from "react-router-dom";
 
@@ -63,7 +63,9 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-10">
-            <button className="alt-btn text-2xl">What We Do 🛠️</button>
+            <Link to="/what-we-do">
+              <button className="alt-btn text-2xl">What We Do 🛠️</button>
+            </Link>
           </div>
         </div>
 

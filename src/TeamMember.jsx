@@ -1,4 +1,4 @@
-import teamMembers from "./team-members";
+import teamMembers from "./store/team-members";
 import twitter from "./svgs//twitter.png"
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,7 +16,7 @@ export default function TeamMember() {
                 </Link>
             </div>
             <h3 className="project-title">{validMember.name}</h3>
-            <h3 className="text-[20px] leading-[26.04px] lg:leading-[52.08px] lg:text-[40px] max-w-[1158px]">
+            <h3 className="text-sub-copy">
                 {validMember.role}
             </h3>
             <div className="grid mt-[22px] md:mt-[32px] grid-cols-1 md:grid-cols-2 gap-[36.57px]">

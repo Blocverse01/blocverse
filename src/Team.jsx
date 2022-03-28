@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import teamMembers from "./team-members";
+import teamMembers from "./store/team-members";
 
 export default function Team() {
   return (

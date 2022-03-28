@@ -9,10 +9,9 @@ import WhatWeDo from "./WhatWeDo";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "./ScrollToTop";
+import Projects from "./Projects";
 
-AOS.init({
-  duration: 700,
-});
+AOS.init();
 
 function App() {
   return (
@@ -25,6 +24,7 @@ function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="/team/:name" element={<TeamMember />} />
             <Route path="/what-we-do" element={<WhatWeDo />} />
+            <Route path="/projects" element={<Projects />} />
           </Route>
         </Routes>
       </ScrollToTop>

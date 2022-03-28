@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
-import twitter from "./svgs/twitter.png";
-import discord from "./svgs/discord.svg";
-import instagram from "./svgs/instagram.svg";
+import twitter from "svgs/twitter.png";
+import discord from "svgs/discord.svg";
+import instagram from "svgs/instagram.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
@@ -76,15 +76,15 @@ export default function Layout() {
                 <Link to="/what-we-do">What We Do</Link>
               </li>
               <li>
-                <a onClick={() => setOpen(false)} href="/#bloc-labs">
-                  Bloc-Labs
-                </a>
+                <Link onClick={() => setOpen(false)} to="/projects">
+                  Projects
+                </Link>
               </li>
               <li>
-                <a href="https://blog.blocverse.com">Bloc-Blog</a>
+                <a target="_blank" rel="noreferrer" href="https://blog.blocverse.com">Bloc-Blog</a>
               </li>
               <li>
-                <a href="#teachables">Bloc-Learn</a>
+                <a target="_blank" rel="noreferrer" href="#teachables">Bloc-Learn</a>
               </li>
               <li>
                 <Link
@@ -95,7 +95,7 @@ export default function Layout() {
                 </Link>
               </li>
               <li className="lg:hidden font-normal absolute bottom-[50.36px]">
-                <a
+                <a target="_blank" rel="noreferrer"
                   href="mailto:info@blocverse.com"
                   className="text-white font-normal mb-[10px]"
                 >

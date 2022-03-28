@@ -6,7 +6,7 @@ export default function About() {
     <section className="px-5 pt-3 pb-20 md:pb-24 lg:pb-36 md:px-6 lg:px-8">
       <div data-aos="fade-down">
         <h3 className="hero-text">About BlocVerse</h3>
-        <p className="text-[20px] leading-[26.04px] lg:leading-[52.08px] lg:text-[40px] max-w-[1158px]">
+        <p className="text-sub-copy">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa
           nunc lacus nam dolor nisi vulputate. Gravida elementum elementum
           tellus potenti mi porttitor.
@@ -17,7 +17,7 @@ export default function About() {
       </div>
       <div data-aos="fade-right">
         <h3 className="hero-text">Lorem ipsum dolor sit amet elit, adipiscing semper luctus morbi varius.</h3>
-        <p className="text-[20px] leading-[26.04px] lg:leading-[52.08px] lg:text-[40px] max-w-[1158px]">
+        <p className="text-sub-copy">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa
           nunc lacus nam dolor nisi vulputate. Gravida elementum elementum
           tellus potenti mi porttitor.

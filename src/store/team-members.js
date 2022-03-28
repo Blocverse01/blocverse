@@ -1,11 +1,11 @@
-import cto from "./team/cto.png";
-import designLead from "./team/design-lead.png";
-import contentWriter from "./team/content-writer.png";
-import team4 from "./team/team-4.png";
-import team5 from "./team/team-5.png";
-import team6 from "./team/team-6.png";
-import team7 from "./team/team-7.png";
-import team8 from "./team/team-8.png";
+import cto from "team/cto.png";
+import designLead from "team/design-lead.png";
+import contentWriter from "team/content-writer.png";
+import team4 from "team/team-4.png";
+import team5 from "team/team-5.png";
+import team6 from "team/team-6.png";
+import team7 from "team/team-7.png";
+import team8 from "team/team-8.png";
 
 const teamMembers = [
   {
