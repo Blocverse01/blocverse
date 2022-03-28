@@ -55,4 +55,12 @@
   .text-sub-copy {
     @apply text-[20px] leading-[26.04px] lg:leading-[56.08px] lg:text-[40px] max-w-[1158px];
   }
+
+  .contact-input {
+    @apply border-b-[1.2px] border-black w-full text-[16px] leading-[20.83px] lg:text-[36px] outline-none pb-1 focus:border-brand-blue lg:leading-[46.87px] placeholder-[rgba(0,0,0,0.5)] text-black;
+  }
+
+  .contact-input option {
+    @apply lg:text-[24.09px] text-[14px] leading-[18.23px] text-black lg:leading-[31.37px];
+  }
 }

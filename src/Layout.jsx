@@ -81,10 +81,18 @@ export default function Layout() {
                 </Link>
               </li>
               <li>
-                <a target="_blank" rel="noreferrer" href="https://blog.blocverse.com">Bloc-Blog</a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://blog.blocverse.com"
+                >
+                  Bloc-Blog
+                </a>
               </li>
               <li>
-                <a target="_blank" rel="noreferrer" href="#teachables">Bloc-Learn</a>
+                <a target="_blank" rel="noreferrer" href="#teachables">
+                  Bloc-Learn
+                </a>
               </li>
               <li>
                 <Link
@@ -95,7 +103,9 @@ export default function Layout() {
                 </Link>
               </li>
               <li className="lg:hidden font-normal absolute bottom-[50.36px]">
-                <a target="_blank" rel="noreferrer"
+                <a
+                  target="_blank"
+                  rel="noreferrer"
                   href="mailto:info@blocverse.com"
                   className="text-white font-normal mb-[10px]"
                 >
@@ -110,12 +120,10 @@ export default function Layout() {
                     >
                       <img src={twitter} alt="blocverse-twitter" />
                     </a>
-                    <a target="_blank"
-                      rel="noreferrer" href="#instagram">
+                    <a target="_blank" rel="noreferrer" href="#instagram">
                       <img src={instagram} alt="blocverse-instagram" />
                     </a>
-                    <a target="_blank"
-                      rel="noreferrer" href="#discord">
+                    <a target="_blank" rel="noreferrer" href="#discord">
                       <img src={discord} alt="blocverse-discord" />
                     </a>
                   </div>
@@ -154,12 +162,10 @@ export default function Layout() {
                 >
                   <img src={twitter} alt="blocverse-twitter" />
                 </a>
-                <a target="_blank"
-                  rel="noreferrer" href="#instagram">
+                <a target="_blank" rel="noreferrer" href="#instagram">
                   <img src={instagram} alt="blocverse-instagram" />
                 </a>
-                <a target="_blank"
-                  rel="noreferrer" href="#discord">
+                <a target="_blank" rel="noreferrer" href="#discord">
                   <img src={discord} alt="blocverse-discord" />
                 </a>
               </div>
@@ -170,9 +176,12 @@ export default function Layout() {
               <h3 className="lg:text-[16px] mb-[10px] text-white lg:leading-[20.83px]">
                 GOT ANY PROJECTS?
               </h3>
-              <button className="btn h-[52px] text-xl rounded-[8px]">
+              <Link
+                to="/contact"
+                className="btn h-[52px] text-xl rounded-[8px]"
+              >
                 Contact Us 👋
-              </button>
+              </Link>
             </div>
           </div>
         </div>
