@@ -1,5 +1,5 @@
 import blocticks from "projects/bloc-ticks.png";
-import love from "projects/pexels-wendy-wei-2719500.jpg";
+//import love from "projects/pexels-wendy-wei-2719500.jpg";
 import Blocmeta from "../projects/Blocmeta.PNG";
 const projects = [
   {
