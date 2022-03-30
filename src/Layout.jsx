@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import twitter from "svgs/twitter.png";
 import discord from "svgs/discord.svg";
 import instagram from "svgs/instagram.svg";
+import github from "svgs/github.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
@@ -123,6 +124,9 @@ export default function Layout() {
                     <a target="_blank" rel="noreferrer" href="#instagram">
                       <img src={instagram} alt="blocverse-instagram" />
                     </a>
+                    <a target="_blank" rel="noreferrer" href="#github">
+                      <img src={github} alt="blocverse-github" />
+                    </a>
                     <a target="_blank" rel="noreferrer" href="#discord">
                       <img src={discord} alt="blocverse-discord" />
                     </a>
@@ -168,6 +172,9 @@ export default function Layout() {
                 <a target="_blank" rel="noreferrer" href="#discord">
                   <img src={discord} alt="blocverse-discord" />
                 </a>
+                <a target="_blank" rel="noreferrer" href="#github">
+                  <img src={github} alt="blocverse-github" />
+                  </a>
               </div>
             </div>
           </div>
