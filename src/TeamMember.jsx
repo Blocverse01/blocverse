@@ -35,14 +35,19 @@ export default function TeamMember() {
             {validMember.description}
           </p>
           <div className="mt-10">
-            <button className="btn text-2xl flex items-center">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={`https://twitter.com/${validMember.twitterHandle}`}
+              className="btn text-2xl inline-flex items-center"
+            >
               <img
                 src={twitter}
                 className="mr-2"
                 alt={validMember.name + ":twitter"}
               />{" "}
-              {validMember.twitterHandle}
-            </button>
+              @{validMember.twitterHandle}
+            </a>
           </div>
         </div>
       </div>

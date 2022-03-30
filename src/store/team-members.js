@@ -15,7 +15,7 @@ const teamMembers = [
     description:
       "Smart Contract and Dapp Developer👨🏾‍💻, Too Awesome at everything he does! 😆😎",
     headline: "Awesome Member",
-    twitterHandle: "@ToochukwuOkoro2",
+    twitterHandle: "ToochukwuOkoro2",
   },
   {
     name: "Ajanwachukwu Peter",
@@ -24,7 +24,7 @@ const teamMembers = [
     description:
       "When he’s not drinking soda or bingeing unhealthy amounts of anime, Peter AjaNwachuku is, as you’d even hear him say, a creative genius. From Brand Identity, to User Interfaces, he oversees BlocVerse’s visuals, and manages same for our clients and projects. You can find him photosynthesizing in the warm glow of his computer screen, in an Arsenal jersey in bed and a bottle of Fanta is never too far away.",
     headline: "Design Prodigy, Gorgeous Human.",
-    twitterHandle: "@BlahBlah",
+    twitterHandle: "BlahBlah",
   },
   {
     name: "Teresa Amanwachi",
@@ -33,7 +33,7 @@ const teamMembers = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
     headline: "Awesome Team member",
-    twitterHandle: "@AdaEhugbo",
+    twitterHandle: "AdaEhugbo",
   },
   {
     name: "Avoaja Josh",
@@ -42,16 +42,16 @@ const teamMembers = [
     description:
       "Full stack Developer, super chill guy and he says the worst pun jokes 😂",
     headline: "Awesome Team member",
-    twitterHandle: "https://twitter.com/DevJosh__",
+    twitterHandle: "DevJosh__",
   },
   {
     name: "Eluke Victor",
-    role: "Resercher",
+    role: "Researcher",
     picture: team5,
     description:
       "Researches on Blockchain tech and comes up with the best work and learning resources, A certified BIG BOY 😆",
     headline: "Awesome Team member",
-    twitterHandle: "@ElukeV",
+    twitterHandle: "ElukeV",
   },
   {
     name: "Caleb Ogueji",
@@ -60,7 +60,7 @@ const teamMembers = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
     headline: "Awesome Team member",
-    twitterHandle: "https://twitter.com/Blockchain_Cali",
+    twitterHandle: "Blockchain_Cali",
   },
   {
     name: "Team Member 7",
@@ -69,7 +69,7 @@ const teamMembers = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
     headline: "Awesome Team member",
-    twitterHandle: "@BlahBlah",
+    twitterHandle: "BlahBlah",
   },
   {
     name: "Team Member 8",
@@ -78,7 +78,7 @@ const teamMembers = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
     headline: "Awesome Team member",
-    twitterHandle: "@BlahBlah",
+    twitterHandle: "BlahBlah",
   },
 ];
 

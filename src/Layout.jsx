@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import twitter from "svgs/twitter.png";
 import discord from "svgs/discord.svg";
 import instagram from "svgs/instagram.svg";
-import github from "svgs/github.svg";
+import github from "svgs/GitHub-Mark-Light-120px-plus.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
@@ -124,8 +124,16 @@ export default function Layout() {
                     <a target="_blank" rel="noreferrer" href="#instagram">
                       <img src={instagram} alt="blocverse-instagram" />
                     </a>
-                    <a target="_blank" rel="noreferrer" href="#github">
-                      <img src={github} alt="blocverse-github" />
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/Blocverse01"
+                    >
+                      <img
+                        src={github}
+                        className="w-[25px] h-[25px]"
+                        alt="blocverse-github"
+                      />
                     </a>
                     <a target="_blank" rel="noreferrer" href="#discord">
                       <img src={discord} alt="blocverse-discord" />
@@ -172,9 +180,17 @@ export default function Layout() {
                 <a target="_blank" rel="noreferrer" href="#discord">
                   <img src={discord} alt="blocverse-discord" />
                 </a>
-                <a target="_blank" rel="noreferrer" href="#github">
-                  <img src={github} alt="blocverse-github" />
-                  </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Blocverse01"
+                >
+                  <img
+                    src={github}
+                    className="w-[25px] h-[25px]"
+                    alt="blocverse-github"
+                  />
+                </a>
               </div>
             </div>
           </div>
