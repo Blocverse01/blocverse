@@ -6,21 +6,20 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   const services = [
-    "Lorem Ipsum",
-    "Lorem Ipsum",
-    "Lorem Ipsum",
-    "Lorem Ipsum",
-    "Lorem Ipsum",
-    "Lorem Ipsum",
-    "Lorem Ipsum",
+    "Web3 Educational Resources",
+    "Project Collaborations",
+    "Blockchain Utility Products",
+    "Smart Contract Development",
+    "Technical Consultation on Web3 Technology",
+    "Blockchain Node and Validation Operations",
+    "Vibes😉",
   ];
   return (
-    <section className="px-5 pt-3 md:px-6 lg:px-8">
+    <section className="px-5 pt-3 md:px-6 lg:px-8"> 
       <header>
         <div>
           <h3 data-aos="fade-right" className="hero-text">
-            Lorem ipsum dolor sit amet elit, lectus consectetur adipiscing
-            semper varius morbi varius.
+            You have successfully landed on the Blockchain Multiverse.
           </h3>
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
             <div>
@@ -41,8 +40,8 @@ export default function Home() {
 
       <div className="py-20 md:py-24 lg:py-36">
         <p className="lg:text-[48px] text-[21px] leading-[28.04px] lg:leading-[62.5px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus
-          ultrices lectus nibh sed orci cras pellentesque varius egestas.
+        A Blockchain Multiverse aimed at building blockchain utility products and 
+        providing educational resources on blockchain technology.
         </p>
         <div className="mt-10">
           <Link to="/about" className="alt-btn inline text-2xl">
@@ -78,11 +77,11 @@ export default function Home() {
             Blockchain knowledge is the most important weapon in driving for
             adoption, and Bloc-Learn is our contribution to this mission.
           </p>
-          <p className="text-[20px] lg:text-[40px] lg:leading-[52.08px] leading-[26.04px]">
+         {/*  <p className="text-[20px] lg:text-[40px] lg:leading-[52.08px] leading-[26.04px]">
             Lorem ipsum details about the learn app sit amet, consectetur
             adipiscing elit. Accumsan dictumst magna eu egestas et sed.
             Fringilla arcu in ultrices aenean nulla.
-          </p>
+          </p> */}
           <div className="mt-10">
             <button className="alt-btn text-2xl">Go To Bloc-Learn 📚</button>
           </div>

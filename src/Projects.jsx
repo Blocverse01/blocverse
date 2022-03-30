@@ -6,10 +6,7 @@ export default function Projects() {
       <div>
         <h3 className="headline">Projects 💡</h3>
         <p className="lg:mt-[16px] text-sub-copy">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis eu
-          gravida habitasse diam consectetur aliquet ut cum. Consectetur
-          accumsan donec nec, mattis morbi fringilla. Senectus nunc est
-          pellentesque feugiat. Vitae leo amet sed quis eget.
+        We build and deliver easily scalable products and top-notch solutions.
         </p>
       </div>
       <section className="grid grid-cols-1 mt-[154px] gap-[68px]">

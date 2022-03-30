@@ -1,24 +1,24 @@
-import cto from "team/cto.png";
+import cto from "team/cto.jpeg";
 import designLead from "team/design-lead.png";
-import contentWriter from "team/content-writer.png";
-import team4 from "team/team-4.png";
-import team5 from "team/team-5.png";
-import team6 from "team/team-6.png";
+import contentWriter from "team/tessy.jpeg";
+import team4 from "team/josh.jpeg";
+import team5 from "team/vic.jpeg";
+import team6 from "team/caleb.jpeg";
 import team7 from "team/team-7.png";
 import team8 from "team/team-8.png";
 
 const teamMembers = [
   {
     name: "Toochukwu Okoro",
-    role: "Chief Technical Officer",
+    role: "Founder and Chief Executive Officer",
     picture: cto,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
+      "Smart Contract and Dapp Developer👨🏾‍💻, Too Awesome at everything he does! 😆😎",
     headline: "Awesome Member",
-    twitterHandle: "@BlahBlah",
+    twitterHandle: "@ToochukwuOkoro2",
   },
   {
-    name: "Peter Mbadiwe",
+    name: "Ajanwachukwu Peter",
     role: "Design Lead",
     picture: designLead,
     description:
@@ -33,34 +33,34 @@ const teamMembers = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
     headline: "Awesome Team member",
-    twitterHandle: "@BlahBlah",
+    twitterHandle: "@AdaEhugbo",
   },
   {
-    name: "Team Member 4",
-    role: "Member Role",
+    name: "Avoaja Josh",
+    role: "Chief Technical Officer",
     picture: team4,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
+      "Full stack Developer, super chill guy and he says the worst pun jokes 😂",
     headline: "Awesome Team member",
-    twitterHandle: "@BlahBlah",
+    twitterHandle: "https://twitter.com/DevJosh__",
   },
   {
-    name: "Team Member 5",
-    role: "Member Role",
+    name: "Eluke Victor",
+    role: "Resercher",
     picture: team5,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
+      "Researches on Blockchain tech and comes up with the best work and learning resources, A certified BIG BOY 😆",
     headline: "Awesome Team member",
-    twitterHandle: "@BlahBlah",
+    twitterHandle: "@ElukeV",
   },
   {
-    name: "Team Member 6",
-    role: "Member Role",
+    name: "Caleb Ogueji",
+    role: "Techical Writer and Blockchain Node Operator",
     picture: team6,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
     headline: "Awesome Team member",
-    twitterHandle: "@BlahBlah",
+    twitterHandle: "https://twitter.com/Blockchain_Cali",
   },
   {
     name: "Team Member 7",

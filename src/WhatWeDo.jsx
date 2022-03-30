@@ -18,11 +18,11 @@ export default function WhatWeDo() {
         <h3 className="headline">
           We build and deliver easily scalable products and top-notch solutions.
         </h3>
-        <p className="text-[20px] leading-[26.04px] lg:leading-[52.08px] lg:text-[40px] mt-[74px]">
+        {/* <p className="text-[20px] leading-[26.04px] lg:leading-[52.08px] lg:text-[40px] mt-[74px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa
           nunc lacus nam dolor nisi vulputate. Gravida elementum elementum
           tellus potenti mi porttitor.
-        </p>
+        </p> */}
       </div>
       <div className="mt-24 lg:mb-24">
         <h3 className="lg:text-[48px] text-[24px] leading-[31.25px] font-bold lg:leading-[62.5px]">
