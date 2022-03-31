@@ -6,9 +6,8 @@ import { useParams, Link } from "react-router-dom";
 
 export default function TeamMember() {
   let { name } = useParams();
-  let actualName = name.split("-").join(" ");
   const validMember = teamMembers.find(
-    (item) => item.name.toLowerCase() === actualName.toLowerCase()
+    (item) => item.name.split(" ").join("-").toLowerCase() === name.toLowerCase()
   );
   return (
     <section className="px-5 pt-3 pb-20 md:pb-24 lg:pb-36 md:px-6 lg:px-8">

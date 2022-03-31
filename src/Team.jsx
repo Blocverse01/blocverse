@@ -13,7 +13,7 @@ export default function Team() {
           >
             <img
               src={member.picture}
-              className="w-full h-[340px] object-cover"
+              className="w-full h-[230px] md:h-[340px] object-cover"
               alt={member.name}
             />
             <h3 className="text-[16px] leading-[20.83px] md:text-[24px] md:leading-[31.25px] mt-[7px] md:mt-[23px] font-medium">
