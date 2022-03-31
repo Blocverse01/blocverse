@@ -63,7 +63,7 @@ const teamMembers = [
     twitterHandle: "Blockchain_Cali",
   },
   {
-    name: "Collins Emem Abasi",
+    name: "Collins Emem-Abasi",
     role: "Marketing Expert",
     picture: team7,
     description:
