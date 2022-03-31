@@ -4,7 +4,7 @@ import contentWriter from "team/tessy.jpeg";
 import team4 from "team/josh.jpeg";
 import team5 from "team/vic.jpeg";
 import team6 from "team/caleb.jpeg";
-import team7 from "team/Collins.JPG";
+import team7 from "team/Collins.jpg";
 import team8 from "team/team-8.png";
 
 const teamMembers = [
