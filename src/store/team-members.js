@@ -67,8 +67,7 @@ const teamMembers = [
     role: "Marketing Expert",
     picture: team7,
     description:
-      "He is a Result Driven Blockchain Enthusiast,  offering cutting edge marketing solutions for Blockchain products and startups.
-       Building for the Web 3.0 and the decentralised world.",
+      "He is a Result Driven Blockchain Enthusiast,  offering cutting edge marketing solutions for Blockchain products and startups. Building for the Web 3.0 and the decentralised world.",
     headline: "Awesome Team member",
     twitterHandle: "headboypr",
   },
