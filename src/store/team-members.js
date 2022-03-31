@@ -24,7 +24,7 @@ const teamMembers = [
     description:
       "When he’s not drinking soda or bingeing unhealthy amounts of anime, Peter AjaNwachuku is, as you’d even hear him say, a creative genius. From Brand Identity, to User Interfaces, he oversees BlocVerse’s visuals, and manages same for our clients and projects. You can find him photosynthesizing in the warm glow of his computer screen, in an Arsenal jersey in bed and a bottle of Fanta is never too far away.",
     headline: "Design Prodigy, Gorgeous Human.",
-    twitterHandle: "BlahBlah",
+    twitterHandle: "theAjaNwachuku",
   },
   {
     name: "Teresa Amanwachi",
