@@ -5,7 +5,7 @@ import team4 from "team/josh.jpeg";
 import team5 from "team/vic.jpeg";
 import team6 from "team/caleb.jpeg";
 import team7 from "team/Collins.jpg";
-import team8 from "team/team-8.png";
+import team8 from "team/Logan.JPG";
 
 const teamMembers = [
   {
@@ -75,13 +75,13 @@ const teamMembers = [
     twitterHandle: "headboypr",
   },
   {
-    name: "Team Member 8",
-    role: "Member Role",
+    name: "Agbo Stanley",
+    role: "Frontend Developer",
     picture: team8,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
+      "He Analyzes Crypto Charts, Write Codes, Sleep, Eat, Game, Repeat🧑‍💻📈🎮",
     headline: "Awesome Team member",
-    twitterHandle: "BlahBlah",
+    twitterHandle: "agbostanley11",
   },
 ];
 
