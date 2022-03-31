@@ -1,5 +1,5 @@
 import cto from "team/cto.jpeg";
-import designLead from "team/design-lead.png";
+import designLead from "team/Peter.JPG";
 import contentWriter from "team/tessy.jpeg";
 import team4 from "team/josh.jpeg";
 import team5 from "team/vic.jpeg";
