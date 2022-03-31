@@ -31,7 +31,9 @@ const teamMembers = [
     role: "Content Writer",
     picture: contentWriter,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
+      "Alpha Female | Champion writer. 
+      She'd build brands and empires on the building blocks of words.
+      When she's not taking a truckload of JPEGS, you are most likely to find her on headsets scribbling away on her device.😋",
     headline: "Awesome Team member",
     twitterHandle: "AdaEhugbo",
   },
@@ -58,7 +60,7 @@ const teamMembers = [
     role: "Techical Writer and Blockchain Node Operator",
     picture: team6,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
+      "Really Talented fellow, loves his music😄 and can be a little too quiet😶",
     headline: "Awesome Team member",
     twitterHandle: "Blockchain_Cali",
   },
