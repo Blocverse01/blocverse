@@ -28,7 +28,7 @@ export default function Home() {
                 <br /> You bring the challenge.
               </p>
               <div className="mt-10">
-                <button className="alt-btn text-2xl">Contact Us 👋</button>
+                <Link to="/Contact" className="alt-btn inline text-2xl">Contact Us 👋</Link>
               </div>
             </div>
             <div>
