@@ -31,7 +31,7 @@ const teamMembers = [
     role: "Content Writer",
     picture: contentWriter,
     description:
-      "Alpha Female | Champion writer. 
+      "Alpha Female and Champion writer. 
       She'd build brands and empires on the building blocks of words.
       When she's not taking a truckload of JPEGS, you are most likely to find her on headsets scribbling away on her device.😋",
     headline: "Awesome Team member",
