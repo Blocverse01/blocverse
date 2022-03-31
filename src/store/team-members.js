@@ -4,7 +4,7 @@ import contentWriter from "team/tessy.jpeg";
 import team4 from "team/josh.jpeg";
 import team5 from "team/vic.jpeg";
 import team6 from "team/caleb.jpeg";
-import team7 from "team/team-7.png";
+import team7 from "team/Collins.JPG";
 import team8 from "team/team-8.png";
 
 const teamMembers = [
@@ -65,13 +65,14 @@ const teamMembers = [
     twitterHandle: "Blockchain_Cali",
   },
   {
-    name: "Team Member 7",
-    role: "Member Role",
+    name: "Collins Emem-Abasi",
+    role: "Marketing Expert",
     picture: team7,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu massa nunc lacus nam dolor nisi vulputate. Gravida elementum elementum tellus potenti mi porttitor.",
+      "He is a Result Driven Blockchain Enthusiast,  offering cutting edge marketing solutions for Blockchain products and startups.
+       Building for the Web 3.0 and the decentralised world.",
     headline: "Awesome Team member",
-    twitterHandle: "BlahBlah",
+    twitterHandle: "headboypr",
   },
   {
     name: "Team Member 8",
