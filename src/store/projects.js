@@ -9,7 +9,7 @@ const projects = [
     projectLink: "https://github.com/Blocverse01/nft-ticketting-contracts",
   },
   {
-    title: "Bloc-MetavereV1",
+    title: "Bloc-MetaverseV1",
     description:
       "This is a metaverse project where users get to purchase lands in the Metavere, this project is open for contribution and is openly deployed to the Binance Smart chain. ",
     imageSrc: Blocmeta,
