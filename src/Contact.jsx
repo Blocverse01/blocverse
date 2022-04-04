@@ -3,7 +3,11 @@ export default function Contact() {
     <section className="px-5 py-8 md:py-12 lg:py-16 md:px-6 lg:px-8">
       <div>
         <h3 className="headline">Contact Us 👋</h3>
-        <form className="grid grid-cols-1 gap-[28px] mt-[23px] lg:gap-[56px] lg:mt-[48px]">
+        <form
+        name="contact"
+        method="POST" 
+        className="grid grid-cols-1 gap-[28px] mt-[23px] lg:gap-[56px] lg:mt-[48px]">
+          <input type="hidden" name="form-name" value="contact" />
           <div>
             <input
               placeholder="Full Name"
