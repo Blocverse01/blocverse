@@ -86,7 +86,7 @@ const teamMembers = [
     role: "Motion Designer",
     picture: team9,
     description:
-      "Igbo Blooded Tech Bro 🎥🎨🖌️, If he's not playing with animated graphics he's probably talking about African history and culture. He has an alter ego that makes you wonder how he got into tech in the first place, a self acclaimed investor and philanthropist (even if there no capital to invest at the moment). You've probably heard people address him as Jujuboy.",
+      "Igbo Blooded Tech Bro 🎥🎨🖌️, If he's not playing with animated graphics he's probably talking about African history and culture. He has an alter ego that makes you wonder how he got into tech in the first place, a self acclaimed investor and philanthropist (even if there no capital to invest at the moment 😂). You've probably heard people address him as Jujuboy.",
       
     headline: "Awesome Team member",
     twitterHandle: "jujuboynft",
