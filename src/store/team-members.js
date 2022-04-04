@@ -6,6 +6,7 @@ import team5 from "team/vic.jpeg";
 import team6 from "team/caleb.jpeg";
 import team7 from "team/Collins.jpg";
 import team8 from "team/Logan.JPG";
+import team9 from "team/Xaraj.jpeg";
 
 const teamMembers = [
   {
@@ -79,6 +80,16 @@ const teamMembers = [
       "He Analyzes Crypto Charts, Write Codes, Sleep, Eat, Game, Repeat🧑‍💻📈🎮",
     headline: "Awesome Team member",
     twitterHandle: "agbostanley11",
+  },
+  {
+    name: "Chukwuma Okoronkwo",
+    role: "Motion Designer",
+    picture: team9,
+    description:
+      "Igbo Blooded Tech Bro 🎥🎨🖌️, If he's not playing with animated graphics he's probably talking about African history and culture. He has an alter ego that makes you wonder how he got into tech in the first place, a self acclaimed investor and philanthropist (even if there no capital to invest at the moment). You've probably heard people address him as Jujuboy.",
+      
+    headline: "Awesome Team member",
+    twitterHandle: "jujuboynft",
   },
 ];
 
