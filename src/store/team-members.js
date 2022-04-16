@@ -37,7 +37,7 @@ const teamMembers = [
     twitterHandle: "AdaEhugbo",
   },
   {
-    name: "Avoaja Josh",
+    name: "Avoaja Joshua",
     role: "Chief Technical Officer",
     picture: team4,
     description:
