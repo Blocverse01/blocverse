@@ -1,29 +1,25 @@
 export default function BlogPreview() {
   const articles = [
     {
-      title: "Blockchain Technology: A dive into the 3 main types.",
+      title: "Introduction to zk-rollups.",
       highlight:
-        "Blockchain technology as we know it is fast growing. Every day, several technologists come up with different ideas to make it more efficient and carry out its design’s sole purpose.Over the years, Blockchain has shown strength, speed, transparency, security, immutability, and decentralization.",
-      articleLink: "https://blog.blocverse.com/blockchain-technology-types/",
-      imageLink:
-        "https://blog.blocverse.com/wp-content/uploads/2022/03/Artboard-1-7-1024x614.png",
+        "Blockchain technology is innovative; every day, people vent into this great technology to explore its opportunities as a decentralised, secure, and scalable system. Although scalability has been a persistent issue in some blockchains like Ethereum and because of the mass adoption of the Ethereum blockchain, its developers and researchers have been experimenting with various scaling methods to improve network performance and all its inconsistencies with scalability. The Ethereum blockchain implements zk rollups as a scaling solution.",
+      articleLink: "https://blog.blocverse.com/how-does-zk-rollups-work/",
+      imageLink: "https://blog.blocverse.com/wp-content/uploads/2022/05/ZK-Rollups.png",
     },
     {
-      title: "Polygon: Ethereum’s Internet Of Blockchains",
+      title: "Defi ecosystem: Reasons it might be the future of “Finance”.",
       highlight:
-        "Polygon is a layer 2 scaling solution for ethereum blockchain, It is built on top of ethereum making it a layer 2 blockchain. Polygon act as plasma enabled sidechains to ethereum.",
-      articleLink:
-        "https://blog.blocverse.com/polygon-ethereums-internet-of-blockchains/",
-      imageLink:
-        "https://blog.blocverse.com/wp-content/uploads/2022/03/Artboard-1-copy-4-1-1024x614.png",
+        "Before DeFi, we relied on centralized bodies like the bank to keep our money, execute transactions, and so on. We often trust that these centralized bodies will not act in an unjust/biased way. By the end of the day, we keep getting disappointed as the latter is usually the case. DeFi has created a decentralized world on the blockchain that keeps you in charge of your finance, anytime, anywhere in the world.",
+      articleLink: "https://blog.blocverse.com/defi-ecosystem-the-future-of-finance/",
+      imageLink: "https://blog.blocverse.com/wp-content/uploads/2022/04/Understanding-DEFI.png",
     },
     {
-      title: "LAYER 1 AND LAYER 2 BLOCKCHAIN",
+      title: "Smart Contracts- why is it called a “smart contract”?",
       highlight:
-        "Due to the steady increasing amount of nodes on the blockchain, layer 1 seams to be falling short. Blockchains like bitcoin processes over 5TPS and ethereum, 15TPS (transactions per second) amongst many others. Therefore this makes them not scalable enough to accommodate the steady growing amount of nodes on the blockchain.",
-      articleLink: "https://blog.blocverse.com/layer-1-and-layer-2-blockchain/",
-      imageLink:
-        "https://blog.blocverse.com/wp-content/uploads/2022/03/L1L2-1392x835.png",
+        "Smart contracts are a big part of blockchain integration and are of the essence because human beings are not reliable. The blockchain can incorporate computerized sets of rules and mechanisms referred to as Smart Contracts. In smart contracts, you need not fear bias, as it creates a trustless system, with written sets of code programmed for execution on some conditions. They back this agreement into the blockchain, making it immutable as well as irreversible. Nick Szabo, an American computer scientist and cryptographer as far back as 1994, introduced the concept of smart contracts. But, Ethereum was the first blockchain to start smart contracts, using the Solidity programming language.",
+      articleLink: "https://blog.blocverse.com/what-are-smart-contracts/",
+      imageLink: "https://blog.blocverse.com/wp-content/uploads/2022/04/Smart-Contracts-min-1.png",
     },
   ];
 
@@ -41,13 +37,8 @@ export default function BlogPreview() {
                 {article.title.toLowerCase()}
               </h3>
               <p className="text-[16px] lg:text-[24px] lg:leading-[33.25px] leading-[20.83px]">
-                <span className="line-clamp-3 text-slate-800">
-                  {article.highlight}
-                </span>
-                <a
-                  className="text-brand-blue underline"
-                  href={article.articleLink}
-                >
+                <span className="line-clamp-3 text-slate-800">{article.highlight}</span>
+                <a className="text-brand-blue underline" href={article.articleLink}>
                   Read More
                 </a>{" "}
                 👉
