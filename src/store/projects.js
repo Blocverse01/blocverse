@@ -6,7 +6,7 @@ const projects = [
     description:
       "This is an NFT ticketting platform that enables users create events and event tickets are stored on the blockchain as unique tokens .",
     imageSrc: blocticks,
-    projectLink: "https://github.com/Blocverse01/nft-ticketting-contracts",
+    projectLink: "https://bloctickets.co",
   },
   {
     title: "Bloc-MetaverseV1",
