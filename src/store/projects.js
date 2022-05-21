@@ -1,12 +1,12 @@
-import blocticks from "projects/bloc-ticks.png";
+import blocticks from "projects/bloc-ticks.jpg";
 import Blocmeta from "projects/Blocmeta.PNG";
 const projects = [
   {
-    title: "Bloc-Ticks",
+    title: "BlocTix",
     description:
-      "This is an NFT ticketting platform that enables users create events and event tickets are stored on the blockchain as unique tokens .",
+      "An NFT ticketting platform that enables creators sell tickets as unique tokens (NFTs). Think TicketMaster on Polygon",
     imageSrc: blocticks,
-    projectLink: "https://bloctickets.co",
+    projectLink: "https://bloctix.com",
   },
   {
     title: "Bloc-MetaverseV1",
@@ -14,7 +14,7 @@ const projects = [
       "This is a metaverse project where users get to purchase lands on the Metaverse, this project is open for contribution and is openly deployed to the Binance Smart chain Testnet. ",
     imageSrc: Blocmeta,
     projectLink: "https://blocmeta.on.fleek.co/",
-  },  
+  },
 ];
 
 export default projects;
