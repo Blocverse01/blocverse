@@ -91,7 +91,7 @@ export default function Layout() {
                 </a>
               </li>
               <li>
-                <a target="_blank" rel="noreferrer" href="#teachables">
+                <a target="_blank" rel="noreferrer" href="https://bloclearn.herokuapp.com/">
                   Bloc-Learn
                 </a>
               </li>
