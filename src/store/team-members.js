@@ -1,4 +1,4 @@
-import cto from "team/cto.jpeg";
+import cto from "team/CEO.jpeg";
 import designLead from "team/Peter.JPG";
 import contentWriter from "team/tessy.jpeg";
 import team4 from "team/josh.jpeg";
