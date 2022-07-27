@@ -5,7 +5,7 @@ const projects = [
   {
     title: "TixHive",
     description:
-      "An NFT ticketting platform that enables creators sell tickets as unique tokens (NFTs). Think TicketMaster on Polygon",
+      "An NFT ticketing platform that enables creators sell tickets as unique tokens (NFTs). Think TicketMaster on Polygon",
     imageSrc: blocticks,
     projectLink: "https://tixhive.com",
   },
