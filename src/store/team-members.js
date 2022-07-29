@@ -59,7 +59,8 @@ const teamMembers = [
     role: "Fullstack Developer",
     picture: team6,
     description:
-      "Really Talented fellow, Eats typescript and PHP for breakfast😆",
+      "Techpreneur and Fullstack Developer,He is passionate about sharing his knowledge, solving problems, and volunteering. He Eats typescript and PHP for breakfast😆",
+      
     headline: "Awesome Team member",
     twitterHandle: "santos_codes",
   },
