@@ -3,7 +3,7 @@ import designLead from "team/Peter.JPG";
 import contentWriter from "team/tessy.jpeg";
 import team4 from "team/josh.jpeg";
 import team5 from "team/vic.jpeg";
-import team6 from "team/caleb.jpeg";
+import team6 from "team/santos.jpg";
 import team7 from "team/Collins.jpg";
 import team8 from "team/Logan.JPG";
 import team9 from "team/Xaraj.jpeg";
@@ -55,13 +55,13 @@ const teamMembers = [
     twitterHandle: "ElukeV",
   },
   {
-    name: "Caleb Ogueji",
-    role: "Techical Writer and Blockchain Node Operator",
+    name: "Chukwuemeka Anthony",
+    role: "Fullstack Developer",
     picture: team6,
     description:
-      "Really Talented fellow, loves his music😄 and can be a little too quiet😶",
+      "Really Talented fellow, Eats typescript and PHP for breakfast😆",
     headline: "Awesome Team member",
-    twitterHandle: "Blockchain_Cali",
+    twitterHandle: "santos_codes",
   },
   {
     name: "Collins Emem-Abasi",
