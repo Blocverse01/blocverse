@@ -1,6 +1,7 @@
 import blocticks from "projects/Tixhive_banner.png";
 import Blocmeta from "projects/Blocmeta.PNG";
 import web3gram from "projects/web3gram_landing.png";
+import avc from "projects/avc.png";
 const projects = [
   {
     title: "TixHive",
@@ -15,6 +16,13 @@ const projects = [
       "This is a decentralized photo gallery on IPFS which uses a varity of user authentations and login methods.",
     imageSrc: web3gram,
     projectLink: "https://web3gram.live/",
+  },
+  {
+    title: "AVC",
+    description:
+      "CURATING AFRICAN NFT ASSETS.",
+    imageSrc: avc,
+    projectLink: "https://africanvaluables.com/",
   },
   {
     title: "Bloc-MetaverseV1",
