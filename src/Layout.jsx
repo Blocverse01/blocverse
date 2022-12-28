@@ -91,11 +91,6 @@ export default function Layout() {
                 </a>
               </li>
               <li>
-                <a target="_blank" rel="noreferrer" href="https://bloclearn.herokuapp.com/">
-                  Bloc-Learn
-                </a>
-              </li>
-              <li>
                 <Link
                   to="/contact"
                   className="btn lg:text-xl xl:text-2xl nav-btn"
