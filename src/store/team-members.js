@@ -7,6 +7,9 @@ import team6 from "team/santos.jpg";
 import team7 from "team/Collins.jpg";
 import team8 from "team/Logan.JPG";
 import team9 from "team/Xaraj.jpeg";
+import team10 from "team/david.JPG";
+import team11 from "team/grace.JPG";
+import team12 from "team/sage.JPG";
 
 const teamMembers = [
   {
@@ -91,6 +94,33 @@ const teamMembers = [
       
     headline: "Awesome Team member",
     twitterHandle: "jujuboynft",
+  },
+  {
+    name: "Grace Udu",
+    role: "Content Writer",
+    picture: team11,
+    description:
+      "Awesome Web3 writer",
+    headline: "Awesome Team member",
+    twitterHandle: "TheCocopops_",
+  },
+  {
+    name: "David Udu",
+    role: "Graphic Designer",
+    picture: team10,
+    description:
+      "Awesome Graphic designer",
+    headline: "Awesome Team member",
+    twitterHandle: "Dahveddesigner",
+  },
+  {
+    name: "Godwin Okoro",
+    role: "Social media Manager",
+    picture: team12,
+    description:
+      "Awesome Web3 guy",
+    headline: "Awesome Team member",
+    twitterHandle: "GodwinO52356524",
   },
 ];
 
