@@ -100,7 +100,7 @@ const teamMembers = [
     role: "Content Writer",
     picture: team11,
     description:
-      "Awesome Web3 writer",
+      "The Web2 makeup artist who, through content writing, transitioned to Web3. Shy, antisocial social writer who oddly likes being referred to be a tech gal. Addicted to music, exercise, and receiving praise for a job well done.",
     headline: "Awesome Team member",
     twitterHandle: "TheCocopops_",
   },
@@ -117,9 +117,9 @@ const teamMembers = [
     name: "Godwin Okoro",
     role: "Social media Manager",
     picture: team12,
-    description:
-      "Awesome Web3 guy",
-    headline: "Awesome Team member",
+   headline:
+      "The Sage of Web3🔥",
+    description: "Has a high appetite for on-screen entertainment. Got introduced into the Blockhain niche in 2021, got into Blocverse that same year, months later and is now the social media/ content manager. Prior to Blocverse, he has been engaged in carrying out online jobs relating to social media management and marketing online. Hobbies includes photography, TV binge, reading and writing stuff.",
     twitterHandle: "GodwinO52356524",
   },
 ];
