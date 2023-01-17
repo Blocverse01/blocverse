@@ -9,7 +9,7 @@ const projects = [
     description:
       "An open fund raising system for wildlife conservancies. Uwazi empowers conservancies with a platform to make their financial needs for specific problems visible to interested donors around the world as funding requests, providing access to funds in a transparent yet secure manner, powered by blockchain technology. Uwazi is the financial powerhouse for making conservation a responsibility for everyone.",
     imageSrc: uwazi,
-    projectLink: "https://tixhive.com",
+    projectLink: "https://uwazi.live",
   },
   {
     title: "TixHive",
