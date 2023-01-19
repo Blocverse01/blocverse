@@ -109,7 +109,7 @@ const teamMembers = [
     role: "Graphic Designer",
     picture: team10,
     description:
-      "Awesome Graphic designer",
+      "David is a web3 brand designer with a passion for creating visually stunning designs, He has the creativity and technical expertise to bring your vision to life.",
     headline: "Awesome Team member",
     twitterHandle: "Dahveddesigner",
   },
