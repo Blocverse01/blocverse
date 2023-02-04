@@ -162,7 +162,7 @@ export default function Layout() {
             
             <div className="flex mt-[10.16px] gap-[24.47px]">
                 <h3 className="font-medium text-white lg:mt-[13px] lg:text-[16px] lg:leading-[20.83px]">
-                  651N Broad st, suite 201, Middletown, Delarware, Newcastle, 19709
+                  651N Broad st, suite 201, Middletown, Delaware, Newcastle, 19709
                 </h3>
               </div>
             </div>
