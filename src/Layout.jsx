@@ -107,6 +107,7 @@ export default function Layout() {
                 >
                   Email: info@blocverse.com
                 </a>
+                
                 <div>
                   <div className="flex mt-[10.16px] justify-start gap-[24.47px]">
                     <a
@@ -152,15 +153,25 @@ export default function Layout() {
             >
               Email: info@blocverse.com
             </a>
+            <div>
             <img
               src={logo}
               alt="logo"
               className="md:h-[82px] hidden md:block"
             />
+            
+            <div className="flex mt-[10.16px] gap-[24.47px]">
+                <h3 className="font-medium text-white lg:mt-[13px] lg:text-[16px] lg:leading-[20.83px]">
+                  651N Broad st, suite 201, Middletown, Delarware, Newcastle, 19709
+                </h3>
+              </div>
+            </div>
+             
             <div>
               <h3 className="font-medium text-white lg:mt-[13px] lg:text-[16px] lg:leading-[20.83px]">
-                (c) 2022 Blocverse All Rights Reserved.
+                (c) 2023 Blocverse All Rights Reserved.
               </h3>
+             
               <div className="flex mt-[10.16px] gap-[24.47px]">
                 <a
                   target="_blank"

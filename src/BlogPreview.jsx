@@ -1,25 +1,25 @@
 export default function BlogPreview() {
   const articles = [
     {
-      title: "Introduction to zk-rollups.",
+      title: "ERCs AND EIPs EXPLAINED",
       highlight:
-        "Blockchain technology is innovative; every day, people vent into this great technology to explore its opportunities as a decentralised, secure, and scalable system. Although scalability has been a persistent issue in some blockchains like Ethereum and because of the mass adoption of the Ethereum blockchain, its developers and researchers have been experimenting with various scaling methods to improve network performance and all its inconsistencies with scalability. The Ethereum blockchain implements zk rollups as a scaling solution.",
-      articleLink: "https://blog.blocverse.com/how-does-zk-rollups-work/",
-      imageLink: "https://blog.blocverse.com/wp-content/uploads/2022/05/ZK-Rollups.png",
+        "Did you know that despite the size of the Ethereum blockchain, even you can modify the system to redesign areas that you believe require modifications? Decentralised applications (dApps), particularly those for banking, continue to run on Ethereum (ETH), the most popular platform (DeFis). As a result, every change made to its programming will likely impact the cryptocurrency experiences of millions of users.",
+      articleLink: "https://blog.blocverse.com/ercs-and-eips-explained/",
+      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/01/Cover.png",
     },
     {
-      title: "Defi ecosystem: Reasons it might be the future of “Finance”.",
+      title: "HOW BLOCKCHAIN AND ARTIFICIAL INTELLIGENCE ARE REVOLUTIONIZING THE FUTURE”.",
       highlight:
-        "Before DeFi, we relied on centralized bodies like the bank to keep our money, execute transactions, and so on. We often trust that these centralized bodies will not act in an unjust/biased way. By the end of the day, we keep getting disappointed as the latter is usually the case. DeFi has created a decentralized world on the blockchain that keeps you in charge of your finance, anytime, anywhere in the world.",
-      articleLink: "https://blog.blocverse.com/defi-ecosystem-the-future-of-finance/",
-      imageLink: "https://blog.blocverse.com/wp-content/uploads/2022/04/Understanding-DEFI.png",
+        "Do you realize how remarkable the fusion of AI and Blockchain technology is? So naturally, this refers to finding a solution to some global issues, such as the health sector’s flaws and the few restrictions each system has on its operations.",
+      articleLink: "https://blog.blocverse.com/how-blockchain-and-artificial-intelligence-are-revolutionizing-the-future/",
+      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/02/Blockchain-and-AI-cover.png",
     },
     {
-      title: "Smart Contracts- why is it called a “smart contract”?",
+      title: "Dapp Review on SKiff",
       highlight:
-        "Smart contracts are a big part of blockchain integration and are of the essence because human beings are not reliable. The blockchain can incorporate computerized sets of rules and mechanisms referred to as Smart Contracts. In smart contracts, you need not fear bias, as it creates a trustless system, with written sets of code programmed for execution on some conditions. They back this agreement into the blockchain, making it immutable as well as irreversible. Nick Szabo, an American computer scientist and cryptographer as far back as 1994, introduced the concept of smart contracts. But, Ethereum was the first blockchain to start smart contracts, using the Solidity programming language.",
-      articleLink: "https://blog.blocverse.com/what-are-smart-contracts/",
-      imageLink: "https://blog.blocverse.com/wp-content/uploads/2022/04/Smart-Contracts-min-1.png",
+        "SKiff Email is a secure and reliable email service provider, powered by blockchain technology.",
+      articleLink: "https://blog.blocverse.com/dapp-review-skiff/",
+      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/02/Frame-15.png",
     },
   ];
 
