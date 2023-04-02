@@ -1,25 +1,25 @@
 export default function BlogPreview() {
   const articles = [
     {
-      title: "ERCs AND EIPs EXPLAINED",
+      title: "ETHEREUM ERC-4337 STANDARD",
       highlight:
-        "Did you know that despite the size of the Ethereum blockchain, even you can modify the system to redesign areas that you believe require modifications? Decentralised applications (dApps), particularly those for banking, continue to run on Ethereum (ETH), the most popular platform (DeFis). As a result, every change made to its programming will likely impact the cryptocurrency experiences of millions of users.",
-      articleLink: "https://blog.blocverse.com/ercs-and-eips-explained/",
-      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/01/Cover.png",
+        "The Ethereum mainnet has recently implemented the ERC-4337 standard to enable account abstraction, fulfilling a long-standing objective. It was initially proposed in 2021 as EIP-4337 and only authorised as ERC-4337 in 2023.",
+      articleLink: "https://blog.blocverse.com/ethereum-erc-4337-standard/",
+      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/04/ERC-4337-Cover.png",
     },
     {
-      title: "HOW BLOCKCHAIN AND ARTIFICIAL INTELLIGENCE ARE REVOLUTIONIZING THE FUTURE”.",
+      title: "ARCHIMEDES FINANCE",
       highlight:
-        "Do you realize how remarkable the fusion of AI and Blockchain technology is? So naturally, this refers to finding a solution to some global issues, such as the health sector’s flaws and the few restrictions each system has on its operations.",
-      articleLink: "https://blog.blocverse.com/how-blockchain-and-artificial-intelligence-are-revolutionizing-the-future/",
-      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/02/Blockchain-and-AI-cover.png",
+        "Archimedes is a decentralised lending and borrowing marketplace that allows investors to deposit assets and use them as collateral to create leverage positions in other to borrow a stablecoin, lvUSD.",
+      articleLink: "https://blog.blocverse.com/dapp-review-archimedes/",
+      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/03/Archimedes-2048x1103.png",
     },
     {
-      title: "Dapp Review on SKiff",
+      title: "RADIANT CAPITAL – THE OMNICHAIN MONEY MARKET",
       highlight:
-        "SKiff Email is a secure and reliable email service provider, powered by blockchain technology.",
-      articleLink: "https://blog.blocverse.com/dapp-review-skiff/",
-      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/02/Frame-15.png",
+        "Radiant capital is an omnichain  money market solution that operates across multiple blockchain networks, allowing users to borrow and earn interest on various cryptocurrencies and digital assets.",
+      articleLink: "https://blog.blocverse.com/radiant-capital-the-omnichain-money-market/",
+      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/03/Radiant-2048x1103.png",
     },
   ];
 
