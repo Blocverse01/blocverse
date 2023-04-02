@@ -3,7 +3,15 @@ import Blocmeta from "projects/Blocmeta.PNG";
 import web3gram from "projects/web3gram_landing.png";
 import avc from "projects/avc.png";
 import uwazi from "projects/uwazi-banner.png";
+import artizen from "projects/artizen.png"
 const projects = [
+  {
+    title: "Artizen",
+    description:
+      " Artizen is a data DAO that utilizes a threshold encryption network for on-chain access control to enable creators sell stock media (photos and videos) on a decentralized filecoin storage network. ",
+    imageSrc: artizen,
+    projectLink: "https://artizen-dun.vercel.app/",
+  },
   {
     title: "Uwazi",
     description:
