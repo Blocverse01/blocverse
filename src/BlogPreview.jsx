@@ -1,27 +1,45 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
 export default function BlogPreview() {
-  const articles = [
-    {
-      title: "ETHEREUM ERC-4337 STANDARD",
-      highlight:
-        "The Ethereum mainnet has recently implemented the ERC-4337 standard to enable account abstraction, fulfilling a long-standing objective. It was initially proposed in 2021 as EIP-4337 and only authorised as ERC-4337 in 2023.",
-      articleLink: "https://blog.blocverse.com/ethereum-erc-4337-standard/",
-      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/04/ERC-4337-Cover.png",
-    },
-    {
-      title: "ARCHIMEDES FINANCE",
-      highlight:
-        "Archimedes is a decentralised lending and borrowing marketplace that allows investors to deposit assets and use them as collateral to create leverage positions in other to borrow a stablecoin, lvUSD.",
-      articleLink: "https://blog.blocverse.com/dapp-review-archimedes/",
-      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/03/Archimedes-2048x1103.png",
-    },
-    {
-      title: "RADIANT CAPITAL – THE OMNICHAIN MONEY MARKET",
-      highlight:
-        "Radiant capital is an omnichain  money market solution that operates across multiple blockchain networks, allowing users to borrow and earn interest on various cryptocurrencies and digital assets.",
-      articleLink: "https://blog.blocverse.com/radiant-capital-the-omnichain-money-market/",
-      imageLink: "https://blog.blocverse.com/wp-content/uploads/2023/03/Radiant-2048x1103.png",
-    },
-  ];
+  const [articles, setArticles] = useState([]);
+  
+  useEffect(() => {
+    const fetchArticles = async () => {
+      try {
+        const response = await axios.get('https://blog.blocverse.com/wp-json/wp/v2/posts', {
+      params: {
+        per_page: 3,
+        orderby: 'date',
+        order: 'desc',
+      },
+    });
+        const newArticles = response.data.map((post) => ({
+          title: post.yoast_head_json.title,
+          highlight: post.yoast_head_json.description,
+          articleLink: post.link,
+          imageLink: post.yoast_head_json.og_image[0].url, // Adjust the property name according to your WordPress setup
+        }));
+        setArticles(newArticles);
+      } catch (error) {
+        console.error(error);
+       
+      }
+    };
+
+    
+  
+    // Fetch initial articles
+    fetchArticles();
+  
+    // Set up interval to fetch new articles every 1 minute (adjust as needed)
+    const interval = setInterval(fetchArticles, 2880000);
+  
+    // Clean up the interval when the component is unmounted
+    return () => clearInterval(interval);
+  }, []);
+  
+
 
   return (
     <section>
@@ -37,8 +55,8 @@ export default function BlogPreview() {
                 {article.title.toLowerCase()}
               </h3>
               <p className="text-[16px] lg:text-[24px] lg:leading-[33.25px] leading-[20.83px]">
-                <span className="line-clamp-3 text-slate-800">{article.highlight}</span>
-                <a className="text-brand-blue underline" href={article.articleLink}>
+                <span className="line-clamp-3 text-slate-800" dangerouslySetInnerHTML={{ __html: article.highlight }}></span>
+                <a className="underline text-brand-blue" href={article.articleLink}>
                   Read More
                 </a>{" "}
                 👉
@@ -57,4 +75,5 @@ export default function BlogPreview() {
       </div>
     </section>
   );
+  
 }
