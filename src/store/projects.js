@@ -3,7 +3,7 @@ import Blocmeta from "projects/Blocmeta.PNG";
 import web3gram from "projects/web3gram_landing.png";
 import avc from "projects/avc.png";
 import uwazi from "projects/uwazi-banner.png";
-import artizen from "projects/artizen.png"
+import artizen from "projects/artizen.png";
 const projects = [
   {
     title: "Artizen",
@@ -17,7 +17,7 @@ const projects = [
     description:
       "An open fund raising system for wildlife conservancies. Uwazi empowers conservancies with a platform to make their financial needs for specific problems visible to interested donors around the world as funding requests, providing access to funds in a transparent yet secure manner, powered by blockchain technology. Uwazi is the financial powerhouse for making conservation a responsibility for everyone.",
     imageSrc: uwazi,
-    projectLink: "https://uwazi.live",
+    projectLink: "https://uwazi.xyz",
   },
   {
     title: "TixHive",
@@ -35,8 +35,7 @@ const projects = [
   },
   {
     title: "AVC",
-    description:
-      "CURATING AFRICAN NFT ASSETS.",
+    description: "CURATING AFRICAN NFT ASSETS.",
     imageSrc: avc,
     projectLink: "https://africanvaluables.com/",
   },
