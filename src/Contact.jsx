@@ -45,7 +45,7 @@ export default function Contact() {
             </select>
           </div>
           <div className="mt-6 mb-16 lg:mb-24">
-            <button typ="submit">
+            <button type="submit">
               <h3 className="lg:text-[48px] text-brand-blue text-[24px] underline leading-[31.25px] font-bold lg:leading-[62.5px]">
                 Send 🚀
               </h3>
